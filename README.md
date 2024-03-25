@@ -1,4 +1,4 @@
-# Name: Jonah Burd
+# Jonah Burd Portfolio
 
 ## About Me
 [Write a brief introduction about yourself, including your professional background, skills, and interests.]
