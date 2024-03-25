@@ -4,19 +4,19 @@
 [Write a brief introduction about yourself, including your professional background, skills, and interests.]
 
 ## Experience
-### [Job Title/Position]
-- **Company:** [Company Name]
-- **Location:** [City, State, Country]
-- **Duration:** [Month/Year - Month/Year]
+### [Educational VR Research]
+- **Company:** [Lehigh University]
+- **Location:** [Bethlehem, PA, USA]
+- **Duration:** [01/2023 - 05/2024]
 - **Description:** 
-  [Brief description of your responsibilities and achievements in this role.]
+  I worked full-time in the summer and part-time during the school year with the Lehigh RiVR research team. In this team of multiple PHD students along with 4 esteemed Professors we developed a fully functional interactive virtual reality experience using the 3D real-time engine Unity for the Meta Quest 2 and 3. I programmed in C# to help everything move smoothly as well as I created a abstract dialogue system to be used throughout the experience. *(The dialogue system is shown in the portfolio)*
 
-### [Job Title/Position]
-- **Company:** [Company Name]
-- **Location:** [City, State, Country]
-- **Duration:** [Month/Year - Month/Year]
+### [Sports Marketing Intern]
+- **Company:** [Lehigh Athletics]
+- **Location:** [Bethlehem, PA, USA]
+- **Duration:** [01/2021 - 05/2024]
 - **Description:** 
-  [Brief description of your responsibilities and achievements in this role.]
+  I work with promotional events for various sports events like football, wrestling, and basketball. I’m constantly communicating with students and athletes to help ease their sporting experience.
 
 ## Education
 - **Degree:** Computer Engineering
