@@ -1,0 +1,93 @@
+extends layout
+
+block content
+  // BlackJack Title
+  body 
+    img(src="images/blackjack_logo.png", alt="BlackJack Logo Text")
+  //- h1 BlackJack
+
+  // Modal
+  #startModal.modal 
+    .modal-content 
+      h2 Welcome to Blackjack!
+      p Press Deal To Start
+      button#dealButton Deal
+
+  // Bust Modal
+  #bustModal.modal 
+    .modal-content 
+      h2 BUST!
+      h3 Dealer Won!
+      p Press Deal To Play Again
+      button#playAgain Deal
+  
+  // Loser Modal
+  #loserModal.modal
+    .modal-content 
+      h2 You Lost!
+      h3 Dealer Won!
+      p Press Deal To Play Again
+      button#playAgain2 Deal  
+
+  // Win Modal
+  #winModal.modal
+    .modal-content 
+      h2 You win!
+      h3 Player Won!
+      p Press Deal To Play Again
+      button#playAgain3 Deal  
+
+  // Tie Modal
+  #tieModal.modal
+    .modal-content 
+      h2 Tie!
+      h3 Nobody Wins
+      p Press Deal To Play Again
+      button#playAgain4 Deal  
+
+  // BlackJack Modal
+  #blackjackModal.modal
+    .modal-content 
+      h2 BlackJack!
+      h3 Player Wins
+      p Press Deal To Play Again
+      button#playAgain5 Deal  
+  
+  // Dealer's Hand
+  div.dealer
+    h2 Dealer: 
+    span#dealer-sum 0
+    div#dealer-cards.card-area
+
+  // Player's Hand
+  div.player
+    h2 Player: 
+    span#player-sum 0
+    div#player-cards.card-area
+
+  // Hit/Stay
+  div.controls
+    button#hit-button Hit Me
+    button#stay-button Stay
+
+  // Score
+  div.score-tally
+    h3 Score Tally
+    p Wins: 
+      span#dealer-wins Dealer 0 
+      span#player-wins Player 0
+    hr
+  
+  // Add a Favicon
+  link(rel="icon" href="/favicon.ico" type="image/x-icon")
+  
+  // Audio Backgroubd Music
+  audio#casinoAudio
+    source(src="music/mario.mp3" type="audio/mpeg")
+
+  //Audio For Card Flipping
+  audio#cardFlipAudio
+    source(src="music/cardflip.mp3" type="audio/mpeg")
+
+
+
