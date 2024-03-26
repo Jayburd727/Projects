@@ -1,7 +1,7 @@
 # Jonah Burd Portfolio
 
 ## About Me
-I want to make an impact in what I do and enjoy doing it. I bring a lot of energy into what I do as well as I like to bring others into the limelight that are to shy but deserve it.
+I want to make an impact in what I do and enjoy doing it. I bring a lot of energy into what I do as well as I like to bring others into the limelight that are to shy but deserve it. I'm very good under pressure
 
 ## Experience
 ### [Educational VR Research]
