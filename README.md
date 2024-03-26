@@ -66,7 +66,7 @@ I want to make an impact in what I do and enjoy doing it. I bring a lot of energ
 
 ### Dialogue Script
 - **Description:** In my research I was tasked to optimize a dialogue system throughout our immersive VR experience for reusability and efficiency. This uses a hashmap to store certain indexes from a csv file that can easily be changed based off the designers needs in Unity. 
-- **Link:** [Dialogue Script]
+- **Link:** [Dialogue Script](https://github.com/Jayburd727/Projects/tree/main/DialogueSheet)
 
 ## Contact Information
 - **Email:** jburd7227@gmail.com
