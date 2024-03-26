@@ -1,0 +1,40 @@
+.home-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom right, #3BC6B6, #FFFF99);
+}
+
+.logo {
+    width: 400px;
+    height: 400px;
+}
+
+h1 {
+    font-size: 4rem;
+    color: #555;
+    margin-top: 2rem;
+}
+
+button {
+    padding: 1rem 2rem;
+    font-size: 1.8rem;
+    border-radius: 1rem;
+    border: none;
+    background-color: #FFDAB9;
+    color: #555;
+    cursor: pointer;
+    margin-top: 2rem;
+}
+
+button:hover {
+    background-color: #3BC6B6;
+    color: white;
+}
+
+.google-button {
+    margin-left: 20px;
+    font-size: 18px;
+  }

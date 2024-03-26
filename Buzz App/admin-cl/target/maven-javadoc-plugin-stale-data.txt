@@ -1,0 +1,47 @@
+@options
+@packages
+-classpath
+'C:/Users/Mo/.m2/repository/org/postgresql/postgresql/42.2.25/postgresql-42.2.25.jar'
+-encoding
+'GBK'
+-protected
+-source
+'1.8'
+-sourcepath
+'C:/Users/Mo/Desktop/buzzrepo/admin-cl/src/main/java'
+-author
+-bottom
+'Copyright &#169; 2023. All rights reserved.'
+-charset
+'UTF-8'
+-d
+'C:/Users/Mo/Desktop/buzzrepo/admin-cl/target/site/apidocs'
+-docencoding
+'UTF-8'
+-doctitle
+'admin-cli 1.0-SNAPSHOT API'
+-linkoffline
+'https://docs.oracle.com/javase/8/docs/api' 'C:/Users/Mo/Desktop/buzzrepo/admin-cl/target/javadoc-bundle-options'
+-use
+-version
+-windowtitle
+'admin-cli 1.0-SNAPSHOT API'
+edu.lehigh.cse216.group17.admin
+C:\Users\Mo\.m2\repository\org\postgresql\postgresql\42.2.25\postgresql-42.2.25.jar = 1675564671724
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\src\main\java = 1680018899326
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\allclasses-index.html = 1681683507511
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\allpackages-index.html = 1681683507514
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\element-list = 1681683507436
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\help-doc.html = 1681683507555
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\index-all.html = 1681683507546
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\index.html = 1681683507549
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\jquery-ui.overrides.css = 1681683507572
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\member-search-index.js = 1681683507521
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\module-search-index.js = 1681683507516
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\overview-tree.html = 1681683507497
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\package-search-index.js = 1681683507518
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\script.js = 1681683507559
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\search.js = 1681683507562
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\stylesheet.css = 1681683507557
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\tag-search-index.js = 1681683507522
+C:\Users\Mo\Desktop\buzzrepo\admin-cl\target\site\apidocs\type-search-index.js = 1681683507519

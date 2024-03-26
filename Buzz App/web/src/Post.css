@@ -1,0 +1,81 @@
+.post-container {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+    font-size: 1em;
+}
+
+.post-title {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    margin-bottom: 15px;
+}
+
+.post-votes {
+    display: flex;
+    align-items: center;
+}
+
+.vote-count {
+    margin-right: 10px;
+    margin-bottom: 0;
+}
+
+.upvote-count,
+.downvote-count {
+    margin-right: 5px;
+}
+
+.upvote-button,
+.downvote-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    background-size: contain;
+    border: none;
+    padding: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.upvote-button {
+    background-image: url('Upvote.png');
+}
+
+.downvote-button {
+    background-image: url('Downvote.png');
+}
+
+.downvote-count {
+    margin-left: 5px;
+}
+
+.upvote-button:hover,
+.downvote-button:hover {
+    opacity: 0.8;
+}
+
+.username {
+    background-color: #00CED1;
+    color: white;
+    padding: 5px;
+    font-weight: bold;
+    display: inline-block;
+    border-radius: 5px;
+    margin-top: 22px;
+}
+
+.post-image {
+    max-width: 100%;
+    max-height: 200px;
+    margin-bottom: 15px;
+  }
+  

@@ -1,0 +1,426 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="0" name="edu.lehigh.cse216.group17.admin.DatabaseTest" time="0.001" errors="5" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="java.vm.version" value="17.0.6+10"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin"/>
+    <property name="maven.multiModuleProjectDirectory" value="C:/Users/Mo/Desktop/buzzrepo/admin-cl"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="path.separator" value=";"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="CN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="C:\Users\Mo\Desktop\buzzrepo\admin-cl"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="java.runtime.version" value="17.0.6+10"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\Mo\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="C:/Program Files/Maven/apache-maven-3.8.7/bin/m2.conf"/>
+    <property name="sun.jnu.encoding" value="GBK"/>
+    <property name="java.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Users\Mo\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\local\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\usr\bin;C:\Program Files\Git\mingw64\bin;C:\Program Files\Git\usr\bin;C:\Users\Mo\bin;C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot\bin;C:\Program Files\Eclipse Foundation\jdk-16.0.2.7-hotspot\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Windows\System32\OpenSSH;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0;C:\WINDOWS\System32\OpenSSH;C:\Program Files\dotnet;C:\Program Files\PuTTY;C:\Program Files\Git\cmd;C:\Program Files\Maven\apache-maven-3.8.7\bin;C:\Program Files\nodejs;C:\Users\Mo\AppData\Local\Microsoft\WindowsApps;C:\Users\Mo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Mo\AppData\Roaming\npm;C:\src\flutter\flutter\bin;C:\Program Files\Git\usr\bin\vendor_perl;C:\Program Files\Git\usr\bin\core_perl;."/>
+    <property name="maven.conf" value="C:/Program Files/Maven/apache-maven-3.8.7/conf"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="java.class.version" value="61.0"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="C:/Program Files/Maven/apache-maven-3.8.7/lib/jansi-native"/>
+    <property name="user.home" value="C:\Users\Mo"/>
+    <property name="user.timezone" value="America/New_York"/>
+    <property name="file.encoding" value="GBK"/>
+    <property name="java.specification.version" value="17"/>
+    <property name="user.name" value="Mo"/>
+    <property name="java.class.path" value="C:/Program Files/Maven/apache-maven-3.8.7/boot/plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="17"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher package"/>
+    <property name="java.home" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.6.10-hotspot"/>
+    <property name="user.language" value="zh"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="java.version" value="17.0.6"/>
+    <property name="native.encoding" value="GBK"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.stderr.encoding" value="ms936"/>
+    <property name="maven.home" value="C:\Program Files\Maven\apache-maven-3.8.7"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.version.date" value="2023-01-17"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="java.vendor.version" value="Temurin-17.0.6+10"/>
+    <property name="sun.stdout.encoding" value="ms936"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="edu.lehigh.cse216.group17.admin.DatabaseTest" name="testCreateTables" time="0">
+    <error message="Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.createUserTable()&quot; because &quot;this.db&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.createUserTable()&quot; because &quot;this.db&quot; is null
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.testCreateTables(DatabaseTest.java:239)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at junit.framework.TestCase.runTest(TestCase.java:177)
+	at junit.framework.TestCase.runBare(TestCase.java:142)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+    <system-err>Error: DriverManager.getConnection() threw a SQLException
+org.postgresql.util.PSQLException: FATAL: too many connections for role &quot;ozhubnpc&quot;
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2565)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2677)
+	at org.postgresql.core.v3.QueryExecutorImpl.&lt;init&gt;(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.&lt;init&gt;(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at edu.lehigh.cse216.group17.admin.Database.getDatabase(Database.java:221)
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.&lt;init&gt;(DatabaseTest.java:40)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at junit.framework.TestSuite.createTest(TestSuite.java:59)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:296)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:139)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:118)
+	at org.junit.internal.runners.JUnit38ClassRunner.&lt;init&gt;(JUnit38ClassRunner.java:78)
+	at org.junit.internal.builders.JUnit3Builder.runnerForClass(JUnit3Builder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Error: DriverManager.getConnection() threw a SQLException
+org.postgresql.util.PSQLException: FATAL: too many connections for role &quot;ozhubnpc&quot;
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2565)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2677)
+	at org.postgresql.core.v3.QueryExecutorImpl.&lt;init&gt;(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.&lt;init&gt;(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at edu.lehigh.cse216.group17.admin.Database.getDatabase(Database.java:221)
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.&lt;init&gt;(DatabaseTest.java:40)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at junit.framework.TestSuite.createTest(TestSuite.java:59)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:296)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:139)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:118)
+	at org.junit.internal.runners.JUnit38ClassRunner.&lt;init&gt;(JUnit38ClassRunner.java:78)
+	at org.junit.internal.builders.JUnit3Builder.runnerForClass(JUnit3Builder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Error: DriverManager.getConnection() threw a SQLException
+org.postgresql.util.PSQLException: FATAL: too many connections for role &quot;ozhubnpc&quot;
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2565)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2677)
+	at org.postgresql.core.v3.QueryExecutorImpl.&lt;init&gt;(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.&lt;init&gt;(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at edu.lehigh.cse216.group17.admin.Database.getDatabase(Database.java:221)
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.&lt;init&gt;(DatabaseTest.java:40)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at junit.framework.TestSuite.createTest(TestSuite.java:59)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:296)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:139)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:118)
+	at org.junit.internal.runners.JUnit38ClassRunner.&lt;init&gt;(JUnit38ClassRunner.java:78)
+	at org.junit.internal.builders.JUnit3Builder.runnerForClass(JUnit3Builder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Error: DriverManager.getConnection() threw a SQLException
+org.postgresql.util.PSQLException: FATAL: too many connections for role &quot;ozhubnpc&quot;
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2565)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2677)
+	at org.postgresql.core.v3.QueryExecutorImpl.&lt;init&gt;(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.&lt;init&gt;(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at edu.lehigh.cse216.group17.admin.Database.getDatabase(Database.java:221)
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.&lt;init&gt;(DatabaseTest.java:40)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at junit.framework.TestSuite.createTest(TestSuite.java:59)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:296)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:139)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:118)
+	at org.junit.internal.runners.JUnit38ClassRunner.&lt;init&gt;(JUnit38ClassRunner.java:78)
+	at org.junit.internal.builders.JUnit3Builder.runnerForClass(JUnit3Builder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+Error: DriverManager.getConnection() threw a SQLException
+org.postgresql.util.PSQLException: FATAL: too many connections for role &quot;ozhubnpc&quot;
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2565)
+	at org.postgresql.core.v3.QueryExecutorImpl.readStartupMessages(QueryExecutorImpl.java:2677)
+	at org.postgresql.core.v3.QueryExecutorImpl.&lt;init&gt;(QueryExecutorImpl.java:147)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:273)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:51)
+	at org.postgresql.jdbc.PgConnection.&lt;init&gt;(PgConnection.java:225)
+	at org.postgresql.Driver.makeConnection(Driver.java:465)
+	at org.postgresql.Driver.connect(Driver.java:264)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:681)
+	at java.sql/java.sql.DriverManager.getConnection(DriverManager.java:229)
+	at edu.lehigh.cse216.group17.admin.Database.getDatabase(Database.java:221)
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.&lt;init&gt;(DatabaseTest.java:40)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:480)
+	at junit.framework.TestSuite.createTest(TestSuite.java:59)
+	at junit.framework.TestSuite.addTestMethod(TestSuite.java:296)
+	at junit.framework.TestSuite.addTestsFromTestCase(TestSuite.java:139)
+	at junit.framework.TestSuite.&lt;init&gt;(TestSuite.java:118)
+	at org.junit.internal.runners.JUnit38ClassRunner.&lt;init&gt;(JUnit38ClassRunner.java:78)
+	at org.junit.internal.builders.JUnit3Builder.runnerForClass(JUnit3Builder.java:11)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.builders.AllDefaultPossibilitiesBuilder.runnerForClass(AllDefaultPossibilitiesBuilder.java:37)
+	at org.junit.runners.model.RunnerBuilder.safeRunnerForClass(RunnerBuilder.java:70)
+	at org.junit.internal.requests.ClassRequest.createRunner(ClassRequest.java:28)
+	at org.junit.internal.requests.MemoizingRequest.getRunner(MemoizingRequest.java:19)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:250)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</system-err>
+  </testcase>
+  <testcase classname="edu.lehigh.cse216.group17.admin.DatabaseTest" name="testFailGetPost" time="0.001">
+    <error message="Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.selectByTitle(String)&quot; because &quot;this.db&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.selectByTitle(String)&quot; because &quot;this.db&quot; is null
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.testFailGetPost(DatabaseTest.java:140)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at junit.framework.TestCase.runTest(TestCase.java:177)
+	at junit.framework.TestCase.runBare(TestCase.java:142)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="edu.lehigh.cse216.group17.admin.DatabaseTest" name="testSelectAll" time="0">
+    <error message="Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.selectAll()&quot; because &quot;this.db&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.selectAll()&quot; because &quot;this.db&quot; is null
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.testSelectAll(DatabaseTest.java:220)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at junit.framework.TestCase.runTest(TestCase.java:177)
+	at junit.framework.TestCase.runBare(TestCase.java:142)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="edu.lehigh.cse216.group17.admin.DatabaseTest" name="testDeletePost" time="0">
+    <error message="Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.deleteOne(int)&quot; because &quot;this.db&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.deleteOne(int)&quot; because &quot;this.db&quot; is null
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.testDeletePost(DatabaseTest.java:257)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at junit.framework.TestCase.runTest(TestCase.java:177)
+	at junit.framework.TestCase.runBare(TestCase.java:142)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+  <testcase classname="edu.lehigh.cse216.group17.admin.DatabaseTest" name="testDeleteUser" time="0">
+    <error message="Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.deleteUser(String)&quot; because &quot;this.db&quot; is null" type="java.lang.NullPointerException">java.lang.NullPointerException: Cannot invoke &quot;edu.lehigh.cse216.group17.admin.Database.deleteUser(String)&quot; because &quot;this.db&quot; is null
+	at edu.lehigh.cse216.group17.admin.DatabaseTest.testDeleteUser(DatabaseTest.java:269)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at junit.framework.TestCase.runTest(TestCase.java:177)
+	at junit.framework.TestCase.runBare(TestCase.java:142)
+	at junit.framework.TestResult$1.protect(TestResult.java:122)
+	at junit.framework.TestResult.runProtected(TestResult.java:142)
+	at junit.framework.TestResult.run(TestResult.java:125)
+	at junit.framework.TestCase.run(TestCase.java:130)
+	at junit.framework.TestSuite.runTest(TestSuite.java:241)
+	at junit.framework.TestSuite.run(TestSuite.java:236)
+	at org.junit.internal.runners.JUnit38ClassRunner.run(JUnit38ClassRunner.java:90)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</error>
+  </testcase>
+</testsuite>

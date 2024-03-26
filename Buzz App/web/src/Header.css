@@ -1,0 +1,42 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-image: linear-gradient(45deg, #40E0D0, #20B2AA);
+  height: 140px;
+  padding: 0 20px;
+}
+
+.header__title {
+  font-size: 5.2rem;
+  color: white;
+  text-align: center;
+  margin-top: 1;
+}
+
+button {
+  background-color: #FFD700;
+  color: #40E0D0;
+  border: none;
+  font-weight: bold;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 1.4em;
+}
+
+button a {
+  color: black;
+  text-decoration: none;
+}
+
+.profile-link {
+  display: flex;
+  align-items: center;
+}
+
+.google-button-logout {
+  margin-left: auto;
+  margin-right: 20px;
+}

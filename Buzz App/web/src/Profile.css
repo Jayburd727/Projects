@@ -1,0 +1,94 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(45deg, #40E0D0, #20B2AA);
+    height: 96vh;
+    padding: 20px;
+  }
+  
+  .profile__picture {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+  }
+  
+  .profile__picture img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .profile__info {
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .profile__info li {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: black;
+  }
+  
+  .profile h1 {
+    font-size: 5rem;
+    color: white;
+    margin-bottom: 20px;
+  }
+  
+  .profile__button {
+    margin-top: 100px;
+    justify-content: flex-end;
+    align-self: flex-end;
+  }
+  
+  .profile button {
+    background-color: #ffd700;
+    color: #000000;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 22px;
+    cursor: pointer;
+    margin-bottom: 6px;
+  }
+  
+  .input_part {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+  }
+  
+  .input_part label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .input_part input[type="text"] {
+    font-size: 16px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+  }
+  
+  .input_part button {
+    font-size: 18px;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-left: 10px;
+  }
+  
+  .input_part button:hover {
+    background-color: #0062cc;
+  }
+  

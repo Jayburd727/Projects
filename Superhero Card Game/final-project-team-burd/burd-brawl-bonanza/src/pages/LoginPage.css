@@ -1,0 +1,121 @@
+body {
+  background-color: #3081d0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container > img {
+  max-width: 400px;
+  margin-bottom: 10px; /* Adjust this value as needed */
+}
+
+.container > h1, .container > h2 {
+  font-family: "Bangers";
+  font-size: 70px;
+  color: white;
+  text-shadow: 3px 3px black;
+  margin-top: 0;
+  margin-bottom: 10px;
+  animation: pulse 3.1s infinite;
+}
+
+.container > h2 {
+  font-size: 30px;
+}
+
+.heroPanel > h3 {
+    font-family: "Bangers";
+    font-size: 25px;
+    color: white;
+    text-shadow: 3px 3px black;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+
+.container > form {
+  margin-top: 10px;
+}
+
+.container input,
+.container button {
+  display: block;
+  /* margin: 0 auto 10px;  */
+  /* Additional styling for inputs and button */
+}
+
+.bubbly-button {
+  background-color: #6db9ef;
+  border: none;
+  border-radius: 25px; /* Rounded THE CORNERS */
+  color: white;
+  text-shadow: 3px 3px black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Bangers";
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
+  margin-top: 50px;
+  margin-left: 85px;
+}
+
+.bubbly-button:hover {
+  background-color: #fff5c2; /* Slightly different color on hover */
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+
+input[type="text"],
+input[type="password"] {
+  background-color: #ffffff;
+  border: 2px solid black;
+  border-radius: 25px; /* Rounded corners */
+  padding: 10px 10px;
+  font-family: "Bangers";
+  font-size: 30px;
+  margin: 10px 0;
+  margin-left: 20px;
+  display: block;
+  width: calc(100% - 40px); /* Adjust width as per padding */
+  box-sizing: border-box; /* To include padding in width calculation */
+
+  outline: none;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+input[type="text"]:focus,
+input[type="password"]:focus {
+  border-color: #fff5c2; /* Changes border color */
+  box-shadow: 0 0 8px 0 rgba(233, 30, 99, 0.6);
+}
+
+.link-container {
+  position: fixed;
+  bottom: 0;
+  left: 10;
+  padding: 10px;
+}
+
+/* Text Pulsing */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}

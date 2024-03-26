@@ -1,0 +1,247 @@
+.App {
+  text-align: center;
+}
+
+titlePart{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: 900;
+}
+
+.like-container button.pink {
+  background-color: pink;
+  color: white;
+}
+
+.App-header {
+  background-color: #3871e2;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  position: relative; 
+}
+
+.button {
+  display: inline-block;
+  position: absolute; 
+  padding: 10px 20px;
+  background-color: #4CAF50;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+  top: 57px; 
+  left: 80px; 
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.button-container button {
+  font-size: 24px;
+  padding: 12px 24px;
+  background-color: #2196F3;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  width: 300px;
+  margin-right: 90px;
+}
+
+.button-container button:hover {
+  background-color: #1976D2;
+}
+
+
+.post-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  background-color: #f2f2f2;
+}
+
+.post-list .post {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 600px;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.post-list .post p {
+  font-size: 1.5em; /* increase the font size of the first <p> element */
+  font-weight: bold; /* make the text bold */
+  margin-right: 10px; /* add some spacing to the right of the element */
+}
+
+.post-list .post p1 {
+  font-size: 1em; /* set the font size of the <p1> elements */
+  margin-right: 10px; /* add some spacing to the right of the elements */
+}
+
+.post-list .post #delete-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #ccc;
+  color: #fff;
+  float: left;
+}
+
+.post-list .post #upvote-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #4CAF50;
+  color: #fff;
+  float: right;
+}
+
+.post-list .post #downvote-button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  background-color: #ff0000;
+  color: #fff;
+  float: right;
+}
+
+.post-list .post #delete-button:hover {
+  background-color: #666;
+  color: #fff;
+}
+
+.post-list .post #upvote-button:hover {
+  background-color: #3e8e41;
+  color: #fff;
+}
+
+.post-list .post #downvote-button:hover {
+  background-color: #e60000;
+  color: #fff;
+}
+
+.comments-section {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comments-section h3 {
+  margin-top: 0;
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+}
+
+.comments-section .comment {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comments-section .comment .author {
+  font-weight: bold;
+}
+
+.comments-section .comment .text {
+  margin-top: 5px;
+}
+
+.comments-section .add-comment-form {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.comments-section .add-comment-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.comments-section .add-comment-form input,
+.comments-section .add-comment-form textarea {
+  padding: 5px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.comments-section .add-comment-form button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.comments-section .add-comment-form button:hover {
+  background-color: #3e8e41;
+}
+
+
+
+
+
+
+main {
+  margin: 2rem auto;
+  max-width: 800px;
+}
+
+textarea {
+  width: 50%;
+  height: 100px;
+  padding: 10px;
+  font-size: 16px;
+  border: 3px solid #3871e2;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+  background-color: #3871e2;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+button {
+  margin-top: 3px;
+  margin-right: 200px;
+  margin-left: 150px;
+}

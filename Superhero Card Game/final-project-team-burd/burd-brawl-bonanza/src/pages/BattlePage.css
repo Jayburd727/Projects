@@ -1,0 +1,202 @@
+.powerButton {
+  background-color: #6db9ef;
+  border: none;
+  border-radius: 25px; /* Rounded THE CORNERS */
+  color: white;
+  text-shadow: 3px 3px black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Bangers";
+  font-size: 20px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 20px;
+}
+
+.powerButton:hover {
+  background-color: #fff5c2; /* Slightly different color on hover */
+  box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.3); /* Larger shadow on hover */
+}
+.powerQuantity {
+  display: inline-block;
+  font-family: "Bangers";
+  font-size: 25px;
+  color: white;
+  text-shadow: 3px 3px black;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
+#playerPanels {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  background-image: url(vs.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#userPanel {
+  display: flex;
+  margin-right: 200px;
+}
+
+#cpuPanel {
+  display: flex;
+  margin-left: 100px;
+}
+
+.characterData {
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+.powerOptions {
+  /* border: 1px solid black; */
+  width: 200px;
+}
+
+#cpuPanel .powerButton {
+  font-weight: bold;
+}
+
+#cpuPanel .powerQuantity {
+  display: none;
+}
+
+.heroImage {
+  width: 200px;
+  height: auto;
+}
+
+.container4 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+}
+
+.container4 > img {
+  max-width: 400px;
+  margin-bottom: 10px; /* Adjust this value as needed */
+}
+
+.container4 > h1,
+.container4 > h2 {
+  font-family: "Bangers";
+  font-size: 70px;
+  color: white;
+  text-shadow: 3px 3px black;
+  margin-top: 0;
+  margin-bottom: 10px;
+  animation: pulse 3.1s infinite;
+}
+
+.container4 > h4 {
+    font-family: "Bangers";
+    font-size: 35px;
+    color: white;
+    text-shadow: 3px 3px black;
+    margin-top: 130px;
+    opacity: 0;
+    animation: fadeIn 3s ease-in-out 3s forwards;
+  }
+
+.characterData {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.characterData > h2 {
+  font-family: "Bangers";
+  font-size: 30px;
+  color: white;
+  text-shadow: 3px 3px black;
+}
+
+.characterData > h3 {
+  font-family: "Bangers";
+  font-size: 25px;
+  color: #fff5c2;
+  text-shadow: 3px 3px black;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.bubbly-button {
+  background-color: #6db9ef;
+  border: none;
+  border-radius: 25px; /* Rounded THE CORNERS */
+  color: white;
+  text-shadow: 3px 3px black;
+  padding: 10px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-family: "Bangers";
+  font-size: 40px;
+  margin: 4px 2px;
+  cursor: pointer;
+  transition: all 0.3s ease 0s; /* Smooth transition for hover effects */
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* Shadow for a 3D effect */
+  margin-top: 50px;
+  margin-left: 85px;
+}
+
+/* Text Pulsing */
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 0.9;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+/* Delayed Text */
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Fade the text in to full opacity */
+  }
+}
+
+#heroSelectionPanel {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 130px;
+  gap: 80px;
+}
+
+.heroImage {
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  position: relative;
+  text-align: center;
+  background-image: url("blank_card.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.baseImage {
+  width: 100px; /* Adjust the size as needed */
+  height: auto; /* Maintain the aspect ratio */
+  display: block; /* To ensure it takes its own line */
+  margin-top: 10px; /* Space between the hero image and the base image */
+}
