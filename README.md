@@ -44,7 +44,7 @@ I want to make an impact in what I do and enjoy doing it. I bring a lot of energ
 
 ## Projects
 ### BlackJack 
-- **Description:** A traditional blackjack game created using Javascript and the non-relational database mongoDB. My favorite part of this project is how the UI came out. 
+- **Description:** A traditional blackjack game created using Javascript, DOM and the non-relational database mongoDB. My favorite part of this project is how the UI came out. 
 - **Link:** BlackJack JS Folder
 
 ### Card Game
@@ -60,7 +60,7 @@ I want to make an impact in what I do and enjoy doing it. I bring a lot of energ
 - **Link:** Superhero Card Game Folder
 
 ### A* Algorithm
-- **Description:** An algorithm focused around game AI that is optimal in traversing and pathfinding. It finds the most optimal and efficient path from source to goal.
+- **Description:** An algorithm focused around game AI that is optimal in traversing and pathfinding. It finds the most optimal and efficient path from the source to the goal.
 - **Link:** Superhero Card Game Folder
 
 ### Dialogue Script
