@@ -49,7 +49,7 @@ I want to make an impact in what I do and enjoy doing it. I bring a lot of energ
 
 ### Card Game
 - **Description:** A card game that uses an external API of superheroes that plays similarly to pokemon with different character attributes. It has a non-relational database as well that tracks user registration and whether or not the user is a prime member. 
-- **Link:** Superhero Card Game Folder
+- **Link:** [Superhero Card Game](https://github.com/Jayburd727/Projects/tree/main/Astar%20Algorithm)
 
 ### Buzz App
 - **Description:** A social media platform that has multiple functionalities. You can like messages, post them, login using OAuth with AWS, etc. It has a react native web frontend as well as a flutter mobile frontend. It also runs on a backend in Java. 
