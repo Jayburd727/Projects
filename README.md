@@ -1,7 +1,7 @@
 # Jonah Burd Portfolio
 
 ## About Me
-[Write a brief introduction about yourself, including your professional background, skills, and interests.]
+I want to make an impact in what I do and enjoy doing it.
 
 ## Experience
 ### [Educational VR Research]
@@ -43,16 +43,29 @@
 - Any HDL (Verilog/VHDL)
 
 ## Projects
-### [Project Name]
-- **Description:** [Brief description of the project]
-- **Link:** [GitHub repository or live project link, if available]
+### BlackJack 
+- **Description:** A traditional blackjack game created using Javascript and the non-relational database mongoDB. My favorite part of this project is how the UI came out. 
+- **Link:** BlackJack JS Folder
 
-### [Project Name]
-- **Description:** [Brief description of the project]
-- **Link:** [GitHub repository or live project link, if available]
+### Card Game
+- **Description:** A card game that uses an external API of superheroes that plays similarly to pokemon with different character attributes. It has a non-relational database as well that tracks user registration and whether or not the user is a prime member. 
+- **Link:** Superhero Card Game Folder
 
-## Certifications
-- [Certification Name] - [Issuing Organization], [Year]
+### Buzz App
+- **Description:** A social media platform that has multiple functionalities. You can like messages, post them, login using OAuth with AWS, etc. It has a react native web frontend as well as a flutter mobile frontend. It also runs on a backend in Java. 
+- **Link:** Buzz App Folder
+
+### Resource Management
+- **Description:** A project that focuses on resource memory management that ties hand in hand with operating system efficiency. The overall focus of this project was to implement the LRU (least recently used) management technique and to add specific quotas in regards to that.
+- **Link:** Superhero Card Game Folder
+
+### A* Algorithm
+- **Description:** An algorithm focused around game AI that is optimal in traversing and pathfinding. It finds the most optimal and efficient path from source to goal.
+- **Link:** Superhero Card Game Folder
+
+### Dialogue Script
+- **Description:** In my research I was tasked to optimize the dialogue system throughout our immersive VR experience for reusability and efficiency. This uses a hashmap to store certain indexes from a csv file that can easily be changed based off the designers needs in Unity. 
+- **Link:** Dialogue Script Folder
 
 ## Contact Information
 - **Email:** jburd7227@gmail.com
