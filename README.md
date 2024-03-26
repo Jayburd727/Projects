@@ -64,7 +64,7 @@ I want to make an impact in what I do and enjoy doing it.
 - **Link:** Superhero Card Game Folder
 
 ### Dialogue Script
-- **Description:** In my research I was tasked to optimize the dialogue system throughout our immersive VR experience for reusability and efficiency. This uses a hashmap to store certain indexes from a csv file that can easily be changed based off the designers needs in Unity. 
+- **Description:** In my research I was tasked to optimize a dialogue system throughout our immersive VR experience for reusability and efficiency. This uses a hashmap to store certain indexes from a csv file that can easily be changed based off the designers needs in Unity. 
 - **Link:** Dialogue Script Folder
 
 ## Contact Information
