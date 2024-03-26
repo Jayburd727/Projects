@@ -5,7 +5,25 @@ https://drive.google.com/drive/folders/1quHa2x8tzVIgELMfvdWCHS8-IEYobN1c?usp=sha
 
 In this assignment, you will use HTML, CSS, and JavaScript on the Frontend to create a playable blackjack 21 game. You will also record win and losses to a MongoDB to be displayed on the frontend.
 
-## RUN
+## Important Files
+
+### Routes
+
+routes/index.js
+routes/score.js
+
+### Frontend
+
+public/javascripts/main.js
+public/stylesheets/style.css
+
+### Database
+
+app.js
+
+
+
+## How To Run
 npm install
 npm start
 
