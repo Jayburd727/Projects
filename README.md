@@ -56,7 +56,7 @@
 
 ## Contact Information
 - **Email:** jburd7227@gmail.com
-- **LinkedIn:** [[Your LinkedIn profile URL]](https://www.linkedin.com/in/jonah-burd-2428a11b3/)
+- **LinkedIn:** (https://www.linkedin.com/in/jonah-burd-2428a11b3/)
 
 ## Additional Information
 Although I am a CompE, I do have a great background in communication with my Sports Marketing Job as well as working as a Lobster Chef at a restaurant.
